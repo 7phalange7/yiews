@@ -1,3 +1,7 @@
 auth
 .json
 checkquota.py
+secret.json
+venv/
+.vscode/
+Logs.log
