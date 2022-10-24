@@ -23,7 +23,7 @@ def main():
     api_version = "v3"
     client_secrets_file = "auth/secret.json"  # insert
     if len(sys.argv) < 2:
-        print("Provide Path to secret.json")
+        print("Enter the Path to secret.json")
         exit()
     client_secrets_file = sys.argv[1]
 
@@ -58,7 +58,7 @@ def main():
 
             if changed:
                 new_title = (
-                    "Avatar: Korra | Do It Like A Dude | Views: "
+                    "Korra AMV | Views: "
                     + views
                     + ", Likes: "
                     + likes
